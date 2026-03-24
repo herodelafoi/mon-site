@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Site</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carte {
+      background: #1a1a1a;
+      border: 1px solid #F48120;
+      border-radius: 16px;
+      padding: 50px 60px;
+      text-align: center;
+      max-width: 500px;
+    }
+
+    .emoji { font-size: 60px; margin-bottom: 20px; }
+
+    h1 {
+      color: #F48120;
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #aaaaaa;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .bouton {
+      background: #F48120;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .bouton:hover { background: #d4701a; }
+  </style>
+</head>
+<body>
+  <div class="carte">
+    <div class="emoji">🚀</div>
+    <h1>Mon premier site</h1>
+    <p>Déployé sur Cloudflare Pages.<br>Design amélioré, prêt pour la suite !</p>
+    <a class="bouton" href="#">Me contacter</a>
+  </div>
+</body>
+</html>
